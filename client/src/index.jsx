@@ -14,7 +14,11 @@ class App extends React.Component {
         toolsForSale: [{name: "scissors", cost: 5, workValue: 5, image: "./images/scissor.svg"}, {name: 'push lawnmower', cost: 25, workValue: 50, image: "./images/lawnmower.svg"}, {name: 'battery powered lawnmower', cost: 250, workValue: 100, image: "./images/electriclawnmower.svg"}, {name: 'team of students', cost: 500, workValue: 250, image: "./images/group.svg"}],
         menu: "main",
         message: ""
-    }  
+    } 
+    this.buyTool = this.buyTool.bind(this);
+    this.menu = this.menu.bind(this);
+    this.work = this.work.bind(this);
+    this.store = this.store.bind(this);
   }
   
 
