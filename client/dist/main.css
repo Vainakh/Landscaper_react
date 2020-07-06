@@ -1,0 +1,157 @@
+.menu-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 50px;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+.btn-div-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.btn-work {
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.btn-go-to-store {
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.background {
+  background: url(./images/nature.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+.greeting {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+
+.ul {
+  list-style: none; 
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0px;
+
+}
+
+.ul-container {
+  text-align: center;
+}
+
+.work-tool {
+  font-size: 20px;
+  color: black;
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 65px;
+}
+
+.btn-go-back-to-main {
+  font-size: 20px;
+  color: black;
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.menu-store-message {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.message {
+  color: black;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+  font-family: 'Special Elite', cursive;
+}
+
+.btn-exit {
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.btn-buy {
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.menu-store-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 170px 50px;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+.btn-div-store {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+.menu-store-message {
+  margin: 30px;
+}
+
+.images {
+  width: 50px;
+  height: auto;
+}
+
+.tool-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.win-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.win-message {
+  color: black;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 60px;
+  font-family: 'Special Elite', cursive;
+}
+
+.reset {
+  width: 200px;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 30px;
+}
