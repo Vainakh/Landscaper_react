@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react-dev": "webpack -d --watch",
-    "start": "-- static ./client/dist/"
+    "start": "./client/dist/"
   },
   "author": "",
   "license": "ISC",
