@@ -19,6 +19,7 @@ class App extends React.Component {
     this.menu = this.menu.bind(this);
     this.work = this.work.bind(this);
     this.store = this.store.bind(this);
+    this.reset = this.reset.bind(this);
   }
   
 
